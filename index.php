@@ -24,7 +24,7 @@
                 <th>Task</th>
                 <th>Actions</th>
             </tr>
-            <?php
+            <?ph
             // Fetch and display tasks from the database
             $result = $conn->query("SELECT * FROM tasks ORDER BY id DESC");
             while ($row = $result->fetch_assoc()) {
